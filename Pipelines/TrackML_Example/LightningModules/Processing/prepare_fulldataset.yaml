@@ -1,5 +1,5 @@
 # Input/output configuration
-input_dir: ${EXATRKX_DATA/data/input_events
+input_dir: ${EXATRKX_DATA}/data/input_events
 output_dir: ${EXATRKX_DATA}/data/feature_store/docker_test
 detector_path: ${EXATRKX_DATA}/data/detectors.csv
 n_files: 5
