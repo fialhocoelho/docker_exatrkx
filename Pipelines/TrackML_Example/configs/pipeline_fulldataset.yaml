@@ -1,0 +1,4 @@
+stage_list:
+    - {set: Processing, name: FeatureStore, config: prepare_fulldataset.yaml}
+    - {set: Embedding, name: LayerlessEmbedding, config: train_fulldataset_embedding.yaml}
+    - {set: GNN, name: ResAGNN, config: train_fulldataset_GNN.yaml}

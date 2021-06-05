@@ -1,0 +1,4 @@
+stage_list:
+    - {set: Processing, name: FeatureStore, config: prepare_dockertest.yaml}
+    - {set: Embedding, name: LayerlessEmbedding, config: train_dockertest_embedding.yaml}
+    - {set: GNN, name: ResAGNN, config: train_dockertest_GNN.yaml}
