@@ -82,7 +82,7 @@ cd Pipelines/TrackML_Example/
 ```
 Run the following command to create a Docker container from the image configuration file:
 ```
-sudo docker run --rm -it --init --gpus=all --ipc=host --user="$(id -u):$(id -g)" -v $PWD:/app -v $EXATRKX_DATA:/data exatrkx-docker-gpu traintrack --pipeline_config configs/pipeline_fulldataset.yaml
+sudo docker run --rm -it --init --gpus=all --ipc=host --user="$(id -u):$(id -g)" -v $PWD:/app -v $EXATRKX_DATA:/data exatrkx-docker-gpu traintrack --pipeline_config configs/pipeline_dockertest.yaml
 ```
 If you want to use other paths to run you pipeline, you need to change the paths in the pipeline configurations files.
 E.g.:
